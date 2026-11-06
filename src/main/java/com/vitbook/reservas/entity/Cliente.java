@@ -22,6 +22,6 @@ public class Cliente {
     @Column(nullable = false, length = 20)
     private String telefone;
 
-    @Column(nullable = false, length = 250)
+    @Column(nullable = true, length = 250)
     private String email;
 }
